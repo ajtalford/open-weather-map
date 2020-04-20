@@ -1,0 +1,19 @@
+{
+  "name": "open-weather-map",
+  "version": "1.0.0",
+  "description": "Node, jQuery, and Open Weather API",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajtalford/open-weather-map.git"
+  },
+  "author": "ajtalford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajtalford/open-weather-map/issues"
+  },
+  "homepage": "https://github.com/ajtalford/open-weather-map#readme"
+}
