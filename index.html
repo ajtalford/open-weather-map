@@ -1,0 +1,48 @@
+<!-- 1e50be9c3ec91c85e676018abdc6cc13 -->
+<!-- Have an input where a user can submit a ZIP code
+Return the current time in that city (inclusive of timezone) using the Moment package
+Return the current weather forecast in that ZIP using the OpenWeather API
+Be creative in your website design! -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container return-here mt-5 ml-5">
+        <div class="justify-content-center align-items-center mx-auto" style="width: 200px;">
+            <div id="location"><input class="form-control mt-5 my-2" type="text" placeholder="City or Zip"></div>
+            <div id="weatherLocation">
+                <button class="btn btn-primary btn-lg active"> Click for weather</button>
+            </div>
+            <div class="mt-3">
+                <div class="humidity"></div>
+
+                <div class="temp"></div>
+
+                <section class="location">
+                    <!-- <div class="city">Charlotte, NC</div> -->
+                    <div class="date">Test Date</div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.js"
+        integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+    <script scr="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="index.js"></script>
+
+
+</body>
+</body>
+
+</html>
